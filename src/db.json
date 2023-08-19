@@ -1,279 +1,380 @@
 {
   "categories": [
     {
-      "_id":   "616e68012f58f213a6745b1b" ,
-      "name": "Clothing",
-      "imageUrl": "/products/airmax270_1.jpg"
-    },
-    {
-      "_id":   "616e68012f58f213a6745b1d" ,
-      "name": "Books",
-      "imageUrl": "/products/greatgatsby_1.jpg"
-    },
-    {
-      "_id":   "616e68012f58f213a6745b1e" ,
-      "name": "Sports & Outdoors",
-      "imageUrl": "/products/dumbbellset_1.jpg"
-    },
-    {
-      "_id":   "616e68012f58f213a6745b1a" ,
+      "id": 1,
       "name": "Electronics",
-      "imageUrl": "/products/iphone13pro1.jpg"
+      "imageUrl": "https://example.com/electronics.jpg"
     },
     {
-      "_id":   "616e68012f58f213a6745b1c" ,
-      "name": "Home & Kitchen",
-      "imageUrl": "/products/baristaexpress_1.jpg"
+      "id": 2,
+      "name": "Clothing",
+      "imageUrl": "https://example.com/clothing.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Books",
+      "imageUrl": "https://example.com/books.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Home Decor",
+      "imageUrl": "https://example.com/home-decor.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Sports",
+      "imageUrl": "https://example.com/sports.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Beauty",
+      "imageUrl": "https://example.com/beauty.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Toys",
+      "imageUrl": "https://example.com/toys.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Automotive",
+      "imageUrl": "https://example.com/automotive.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Jewelry",
+      "imageUrl": "https://example.com/jewelry.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Kitchenware",
+      "imageUrl": "https://example.com/kitchenware.jpg"
     }
   ],
   "products": [
     {
-      "_id":   "6464c6f1a2bd407882de50ec" ,
-      "title": "Levi's 501 Jeans",
-      "categoryId": "616e68012f58f213a6745b1b",
-      "imageUrls": [
-        "/products/levis501_1.jpg",
-        "/products/levis501_2.jpg",
-        "/products/levis501_3.jpg"
-      ],
-      "price": { "$numberDouble": "69.99" },
-      "ratings": { "$numberDouble": "4.5" },
+      "id": 2,
+      "title": "Samsung Galaxy S25",
+      "price": "12",
+      "categoryId": 1,
       "features": [
-        "Classic straight leg fit",
-        "100% cotton denim",
-        "Button fly closure"
+        "Exynos 2100 chip",
+        "Dynamic AMOLED 2X display",
+        "Triple-camera system"
       ],
-      "details": "Step up your style game with the iconic Levi's 501 Jeans. With their classic straight leg fit, 100% cotton denim, and button fly closure, these jeans offer timeless appeal and unmatched comfort.",
-      "brand": "Levi's"
+      "imageUrl": "https://example.com/galaxys21.jpg"
     },
     {
-      "_id":   "6464c6f1a2bd407882de50ed" ,
-      "title": "Nike Air Max 270",
-      "categoryId": "616e68012f58f213a6745b1b",
-      "imageUrls": [
-        "/products/airmax270_1.jpg",
-        "/products/airmax270_2.jpg",
-        "/products/airmax270_3.jpg"
+      "id": 3,
+      "title": "Aony Bravia 4K Smart TV",
+      "price": "170",
+      "categoryId": 1,
+      "features": [
+        "65-inch 4K HDR display",
+        "Android TV",
+        "Dolby Atmos sound"
       ],
-      "price": { "$numberDouble": "149.99" },
-      "ratings": { "$numberDouble": "4.7" },
+      "imageUrl": "https://example.com/sonytv.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Levi's Men's 501 Jeans",
+      "price": "140",
+      "categoryId": 2,
+      "features": [
+        "100% cotton",
+        "Classic straight fit",
+        "Button fly"
+      ],
+      "imageUrl": "https://example.com/levisjeans.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Bdidas Originals Superstar Sneakers",
+      "price": "101",
+      "categoryId": 2,
       "features": [
         "Breathable mesh upper",
-        "Visible Max Air unit",
-        "Cushioned foam midsole"
+        "Max Air cushioning",
+        "Rubber outsole"
       ],
-      "details": "Experience ultimate comfort and style with the Nike Air Max 270 sneakers. Featuring a breathable mesh upper, visible Max Air unit for impact protection, and a cushioned foam midsole, these shoes provide all-day comfort.",
-      "brand": "Nike"
+      "imageUrl": "https://example.com/nikeairmax270.jpg"
     },
     {
-      "_id":   "6464c6f1a2bd407882de50ee" ,
-      "title": "Breville Barista Express",
-      "categoryId": "616e68012f58f213a6745b1c",
-      "imageUrls": [
-        "/products/baristaexpress_1.jpg",
-        "/products/baristaexpress_2.jpg",
-        "/products/baristaexpress_3.jpg"
-      ],
-      "price": { "$numberInt": "699" },
-      "ratings": { "$numberDouble": "4.9" },
+      "id": 6,
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "price": 12,
+      "categoryId": 3,
       "features": [
-        "Built-in conical burr grinder",
-        "Precise espresso extraction",
-        "Steam wand for milk frothing"
+        "Author: J.K. Rowling",
+        "Paperback edition",
+        "First book of the Harry Potter series"
       ],
-      "details": "Indulge in the art of coffee-making with the Breville Barista Express. This espresso machine features a built-in conical burr grinder, precise espresso extraction, and a steam wand for milk frothing. Enjoy café-quality coffee at home.",
-      "brand": "Breville"
+      "imageUrl": "https://example.com/harrypotter.jpg"
     },
     {
-      "_id":   "6464c6f1a2bd407882de50ef" ,
-      "title": "Sony PlayStation 5",
-      "categoryId": "616e68012f58f213a6745b1c",
-      "imageUrls": [
-        "/products/ps5_1.jpg",
-        "/products/ps5_2.jpg",
-        "/products/ps5_3.jpg"
-      ],
-      "price": { "$numberInt": "499" },
-      "ratings": { "$numberDouble": "4.8" },
+      "id": 7,
+      "title": "Bdidas Originals Superstar Sneakers",
+      "price": "170",
+      "categoryId": 3,
       "features": [
-        "Ultra-high-speed SSD",
-        "Ray tracing technology",
-        "DualSense wireless controller"
+        "Author: Paulo Coelho",
+        "Inspiring philosophical novel",
+        "Translated from Portuguese"
       ],
-      "details": "Experience next-gen gaming with the Sony PlayStation 5. It features an ultra-high-speed SSD, ray tracing technology for realistic graphics, and a DualSense wireless controller for immersive gameplay. Get ready for a gaming revolution.",
-      "brand": "Sony"
+      "imageUrl": "https://example.com/thealchemist.jpg"
     },
     {
-      "_id":   "6464c6f1a2bd407882de50f1" ,
-      "title": "To Kill a Mockingbird",
-      "categoryId": "616e68012f58f213a6745b1d",
-      "imageUrls": [
-        "/products/tokillamockingbird_1.jpg",
-        "/products/tokillamockingbird_2.jpg",
-        "/products/tokillamockingbird_3.jpg"
-      ],
-      "price": { "$numberDouble": "12.99" },
-      "ratings": { "$numberDouble": "4.7" },
+      "id": 8,
+      "title": "Austic Wooden Wall Clock",
+      "price": "140",
+      "categoryId": 4,
       "features": [
-        "Classic coming-of-age story",
-        "Southern Gothic setting",
-        "Exploration of racism and injustice"
+        "Handcrafted from reclaimed wood",
+        "Vintage design",
+        "Quartz movement"
       ],
-      "details": "Harper Lee's To Kill a Mockingbird is a timeless coming-of-age novel set in the Southern Gothic atmosphere. It delves into themes of racism, injustice, and the power of compassion. A must-read for all.",
-      "brand": "HarperCollins"
+      "imageUrl": "https://example.com/woodenclock.jpg"
     },
     {
-      "_id":   "6464c6f1a2bd407882de50f0" ,
-      "title": "The Great Gatsby",
-      "categoryId": "616e68012f58f213a6745b1d",
-      "imageUrls": [
-        "/products/greatgatsby_1.jpg",
-        "/products/greatgatsby_2.jpg",
-        "/products/greatgatsby_3.jpg"
-      ],
-      "price": { "$numberDouble": "9.99" },
-      "ratings": { "$numberDouble": "4.5" },
+      "id": 9,
+      "title": "Marble Pattern Ceramic Vase",
+      "price": 45,
+      "categoryId": 4,
       "features": [
-        "Classic American literature",
-        "1920s Jazz Age setting",
-        "Exploration of the American Dream"
+        "Elegant marble pattern",
+        "Perfect for floral arrangements",
+        "10 inches tall"
       ],
-      "details": "Immerse yourself in F. Scott Fitzgerald's classic novel, The Great Gatsby. Set in the vibrant 1920s Jazz Age, this masterpiece explores themes of love, wealth, and the elusive American Dream.",
-      "brand": "Penguin Books"
+      "imageUrl": "https://example.com/marblevase.jpg"
     },
     {
-      "_id":   "6464c6f1a2bd407882de50f3",
-      "title": "Dumbbell Set",
-      "categoryId": "616e68012f58f213a6745b1e",
-      "imageUrls": [
-        "/products/dumbbellset_1.jpg",
-        "/products/dumbbellset_2.jpg",
-        "/products/dumbbellset_3.jpg"
-      ],
-      "price": { "$numberDouble": "79.99" },
-      "ratings": { "$numberDouble": "4.6" },
+      "id": 10,
+      "title": "Wilson NFL Super Grip Football",
+      "price": "00",
+      "categoryId": 5,
       "features": [
-        "Versatile weight training",
-        "Durable and non-slip design",
-        "Adjustable weight options"
+        "Official size",
+        "Durable composite leather cover",
+        "Excellent grip"
       ],
-      "details": "Get in shape with this versatile dumbbell set. It offers a range of weight options for effective weight training, features a durable and non-slip design, and helps you achieve your fitness goals.",
-      "brand": "Fitness Gear"
+      "imageUrl": "https://example.com/football.jpg"
     },
     {
-      "_id":   "6464c6f1a2bd407882de50f4" ,
-      "title": "Yoga Mat",
-      "categoryId": "616e68012f58f213a6745b1e",
-      "imageUrls": [
-        "/products/yogamat_2.jpg",
-        "/products/yogamat_1.jpg",
-        "/products/yogamat_3.jpg"
-      ],
-      "price": { "$numberDouble": "29.99" },
-      "ratings": { "$numberDouble": "4.7" },
+      "id": 11,
+      "title": "Fitbit Versa 3 Smartwatch",
+      "price": 199,
+      "categoryId": 6,
       "features": [
-        "Non-slip and cushioned surface",
-        "Suitable for all types of yoga",
-        "Easy to clean and carry"
+        "Built-in GPS",
+        "24/7 heart rate tracking",
+        "Sleep monitoring"
       ],
-      "details": "Enhance your yoga practice with this high-quality yoga mat. Its non-slip and cushioned surface provides stability and comfort during your workouts. Easy to clean and carry, it's perfect for yogis of all levels.",
-      "brand": "Liforme"
+      "imageUrl": "https://example.com/fitbitversa3.jpg"
     },
     {
-      "_id":   "6464c6f1a2bd407882de50f5",
-      "title": "Resistance Bands",
-      "categoryId": "616e68012f58f213a6745b1e",
-      "imageUrls": [
-        "/products/resistancebands_1.jpg",
-        "/products/resistancebands_2.jpg",
-        "/products/resistancebands_3.jpg"
-      ],
-      "price": { "$numberDouble": "19.99" },
-      "ratings": { "$numberDouble": "4.4" },
+      "id": 12,
+      "title": "LEGO Star Wars Millennium Falcon",
+      "price": 149,
+      "categoryId": 7,
       "features": [
-        "Versatile strength training",
-        "Durable and stretchable material",
-        "Suitable for various exercises"
+        "1,351 pieces",
+        "Includes Han Solo and Chewbacca minifigures",
+        "Highly detailed"
       ],
-      "details": "Achieve your fitness goals with these versatile resistance bands. They offer a wide range of strength training exercises, are made from durable and stretchable material, and are suitable for various workouts.",
-      "brand": "Fit Simplify"
+      "imageUrl": "https://example.com/legomillenniumfalcon.jpg"
     },
     {
-      "_id":   "6464c6f1a2bd407882de50e9" ,
-      "title": "iPhone 13 Pro",
-      "categoryId": "616e68012f58f213a6745b1a",
-      "imageUrls": [
-        "/products/iphone13pro1.jpg",
-        "/products/iphone13pro2.jpg",
-        "/products/iphone13pro3.jpg"
-      ],
-      "price": { "$numberInt": "1099" },
-      "ratings": { "$numberDouble": "4.8" },
+      "id": 13,
+      "title": "Black & Decker Cordless Drill",
+      "price": 79,
+      "categoryId": 8,
       "features": [
-        "6.1-inch Super Retina XDR display",
-        "A15 Bionic chip",
-        "128GB storage"
+        "20V Lithium-ion battery",
+        "Variable speed control",
+        "Includes drill bits"
       ],
-      "details": "Experience the power of the iPhone 13 Pro with its 6.1-inch Super Retina XDR display, A15 Bionic chip, and 128GB storage. Capture stunning photos and enjoy smooth performance with this flagship device.",
-      "brand": "Apple"
+      "imageUrl": "https://example.com/cordlessdrill.jpg"
     },
     {
-      "_id":   "6464c6f1a2bd407882de50ea" ,
-      "title": "Samsung Galaxy S21",
-      "categoryId": "616e68012f58f213a6745b1a",
-      "imageUrls": [
-        "/products/galaxys21_1.jpg",
-        "/products/galaxys21_2.jpg",
-        "/products/galaxys21_3.jpg"
-      ],
-      "price": { "$numberInt": "999" },
-      "ratings": { "$numberDouble": "4.7" },
+      "id": 14,
+      "title": "Silver Diamond Stud Earrings",
+      "price": 149,
+      "categoryId": 9,
       "features": [
-        "Dynamic AMOLED 2X display",
-        "Exynos 2100 processor",
-        "256GB storage"
+        "925 sterling silver",
+        "Round-cut diamonds",
+        "0.5 carat total weight"
       ],
-      "details": "Discover the stunning features of the Samsung Galaxy S21. It boasts a Dynamic AMOLED 2X display, powerful Exynos 2100 processor, and 256GB storage capacity. Enjoy a seamless smartphone experience with this flagship device.",
-      "brand": "Samsung"
+      "imageUrl": "https://example.com/diamondearrings.jpg"
     },
     {
-      "_id":   "6464c6f1a2bd407882de50eb" ,
-      "title": "Canon EOS R6",
-      "categoryId": "616e68012f58f213a6745b1a",
-      "imageUrls": [
-        "/products/eosr6_1.jpg",
-        "/products/eosr6_2.jpg",
-        "/products/eosr6_3.jpg"
-      ],
-      "price": { "$numberInt": "2499" },
-      "ratings": { "$numberDouble": "4.9" },
+      "id": 15,
+      "title": "KitchenAid Stand Mixer",
+      "price": 299,
+      "categoryId": 10,
       "features": [
-        "20.1MP full-frame CMOS sensor",
-        "4K video recording",
-        "In-body image stabilization"
+        "325-watt motor",
+        "Tilt-head design",
+        "Includes stainless steel mixing bowl"
       ],
-      "details": "Unleash your creativity with the Canon EOS R6. It features a 20.1MP full-frame CMOS sensor, 4K video recording capabilities, and in-body image stabilization. Capture breathtaking photos and videos with this advanced mirrorless camera.",
-      "brand": "Canon"
+      "imageUrl": "https://example.com/standmixer.jpg"
     },
     {
-      "_id":   "6464c6f1a2bd407882de50f2" ,
-      "title": "The Da Vinci Code",
-      "categoryId": "616e68012f58f213a6745b1d",
-      "imageUrls": [
-        "/products/davincicode_1.jpg",
-        "/products/davincicode_2.jpg",
-        "/products/davincicode_3.jpg"
-      ],
-      "price": { "$numberDouble": "14.99" },
-      "ratings": { "$numberDouble": "4.3" },
+      "id": 16,
+      "title": "iPad Pro",
+      "price": 1099,
+      "categoryId": 1,
       "features": [
-        "Thrilling mystery",
-        "Symbolism and code-breaking",
-        "Art historical references"
+        "M1 chip",
+        "Liquid Retina XDR display",
+        "Face ID"
       ],
-      "details": "Embark on a thrilling adventure with Dan Brown's The Da Vinci Code. This gripping mystery weaves together symbolism, code-breaking, and art historical references. Uncover the secrets that lie within.",
-      "brand": "Doubleday"
+      "imageUrl": "https://example.com/ipadpro.jpg"
+    },
+    {
+      "id": 17,
+      "title": "Adidas Ultraboost 21",
+      "price": 180,
+      "categoryId": 2,
+      "features": [
+        "Primeknit upper",
+        "Boost midsole",
+        "Responsive cushioning"
+      ],
+      "imageUrl": "https://example.com/ultraboost21.jpg"
+    },
+    {
+      "id": 19,
+      "title": "Modern Metal Wall Art",
+      "price": 89,
+      "categoryId": 4,
+      "features": [
+        "Abstract design",
+        "Hand-painted",
+        "Easy to hang"
+      ],
+      "imageUrl": "https://example.com/metalwallart.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Spalding NBA Street Basketball",
+      "price": 25,
+      "categoryId": 5,
+      "features": [
+        "Size 7 (29.5 inches)",
+        "Durable rubber cover",
+        "Great for outdoor play"
+      ],
+      "imageUrl": "https://example.com/basketball.jpg"
+    },
+    {
+      "id": 21,
+      "title": "Philips Sonicare Electric Toothbrush",
+      "price": "100",
+      "categoryId": 6,
+      "features": [
+        "Sonic technology",
+        "2-minute timer",
+        "Includes brush heads"
+      ],
+      "imageUrl": "https://example.com/sonicaretoothbrush.jpg"
+    },
+    {
+      "id": 22,
+      "title": "LEGO Harry Potter Hogwarts Castle",
+      "price": 399,
+      "categoryId": 7,
+      "features": [
+        "6,020 pieces",
+        "Includes minifigures of Harry Potter characters",
+        "Detailed interior"
+      ],
+      "imageUrl": "https://example.com/legohogwarts.jpg"
+    },
+    {
+      "id": 23,
+      "title": "Bosch 18-Volt Drill/Driver Kit",
+      "price": 129,
+      "categoryId": 8,
+      "features": [
+        "18V Lithium-ion battery",
+        "Two-speed transmission",
+        "Includes carrying case"
+      ],
+      "imageUrl": "https://example.com/boschdrill.jpg"
+    },
+    {
+      "id": 24,
+      "title": "Diamond Tennis Bracelet",
+      "price": 599,
+      "categoryId": 9,
+      "features": [
+        "14K white gold",
+        "Round-cut diamonds",
+        "2 carat total weight"
+      ],
+      "imageUrl": "https://example.com/diamondbracelet.jpg"
+    },
+    {
+      "id": 25,
+      "title": "Cuisinart Stainless Steel Cookware Set",
+      "price": "2441",
+      "categoryId": 10,
+      "features": [
+        "10-piece set",
+        "Stainless steel construction",
+        "Dishwasher safe"
+      ],
+      "imageUrl": "https://example.com/cookwareset.jpg"
+    },
+    {
+      "id": 26,
+      "title": "Dell XPS 13 Laptop",
+      "price": "00",
+      "categoryId": 1,
+      "features": [
+        "Intel Core i7 processor",
+        "13.3-inch InfinityEdge display",
+        "512GB SSD"
+      ],
+      "imageUrl": "https://example.com/dellxps13.jpg"
+    },
+    {
+      "id": 27,
+      "title": "Bdidas Originals Superstar Sneakers",
+      "price": "107",
+      "categoryId": 2,
+      "features": [
+        "Classic shell toe design",
+        "Leather upper",
+        "Rubber cupsole"
+      ],
+      "imageUrl": "https://example.com/superstarsneakers.jpg"
+    },
+    {
+      "id": 28,
+      "title": "The Chronicles of Narnia Box Set",
+      "price": 45,
+      "categoryId": 3,
+      "features": [
+        "Author: C.S. Lewis",
+        "Fantasy adventure series",
+        "Seven books in one"
+      ],
+      "imageUrl": "https://example.com/narnia.jpg"
+    },
+    {
+      "id": 29,
+      "title": "Modern Geometric Wall Mirror",
+      "price": 129,
+      "categoryId": 4,
+      "features": [
+        "Unique geometric design",
+        "Gold-finished frame",
+        "36 inches in diameter"
+      ],
+      "imageUrl": "https://example.com/wallmirror.jpg"
     }
   ]
-  
 }
