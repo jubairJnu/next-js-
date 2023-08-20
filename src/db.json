@@ -65,18 +65,6 @@
       "imageUrl": "https://example.com/galaxys21.jpg"
     },
     {
-      "id": 3,
-      "title": "Aony Bravia 4K Smart TV",
-      "price": "170",
-      "categoryId": 1,
-      "features": [
-        "65-inch 4K HDR display",
-        "Android TV",
-        "Dolby Atmos sound"
-      ],
-      "imageUrl": "https://example.com/sonytv.jpg"
-    },
-    {
       "id": 4,
       "title": "Levi's Men's 501 Jeans",
       "price": "141",

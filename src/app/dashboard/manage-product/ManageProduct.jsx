@@ -52,6 +52,24 @@ const ManageProduct = ({products}) => {
       }
     }
   }
+// ***********delete*******//
+
+  const handleDelete = async(id) =>{ 
+      try{
+        const res =await fetch( `http://localhost:5000/products/${id}`,{
+          method:"DELETE",
+          
+        } );
+        const result = await res.json();
+             startTransition(()=>{
+          router.refresh();
+        })
+      }
+      catch{
+        console.log(error)
+      
+    }
+  }
 
   return (
     <div>
@@ -67,7 +85,7 @@ const ManageProduct = ({products}) => {
     <tbody>
     {
       products.map(product=> <ManageSingleProducts key={product.id}
-      product={product} openModal={openModal}
+      product={product} openModal={openModal} handleDelete={handleDelete}
       ></ManageSingleProducts>)
     }
     </tbody>
