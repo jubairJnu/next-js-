@@ -55,7 +55,7 @@
     {
       "id": 2,
       "title": "Samsung Galaxy S25",
-      "price": "12",
+      "price": "120",
       "categoryId": 1,
       "features": [
         "Exynos 2100 chip",
@@ -79,7 +79,7 @@
     {
       "id": 4,
       "title": "Levi's Men's 501 Jeans",
-      "price": "140",
+      "price": "141",
       "categoryId": 2,
       "features": [
         "100% cotton",
@@ -91,7 +91,7 @@
     {
       "id": 5,
       "title": "Bdidas Originals Superstar Sneakers",
-      "price": "101",
+      "price": "100",
       "categoryId": 2,
       "features": [
         "Breathable mesh upper",
